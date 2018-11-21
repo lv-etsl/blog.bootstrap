@@ -1,7 +1,56 @@
 /*
-* Theme Name: blog.bootstrap
-* Theme URI:
-* Descritpion : theme basique
-* Version: 1.0
-* Author: ETSL
+  Theme Name: blog.bootstrap
+  Theme URI:
+  Descritpion : theme basique
+  Version: 1.0
+  Author: ETSL
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400');
+
+:root {
+
+/* variables typo*/
+
+  --mont100 {
+    font-size: 100;
+    font-family: 'Montserrat', sans-serif;
+  }
+  --mont400 {
+    font-size: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* variables couleurs */
+
+  --color-1 {
+    color: rgba(40,70,89,1);
+  }
+  --bg-1 {
+    background-color: rgba(40,70,89,1);
+  }
+  --color-2 {
+    color: rgba(29,50,64,1);
+  }
+  --bg-2 {
+    background-color: rgba(29,50,64,1);
+  }
+  --color-3 {
+    color: rgba(217,167,74,1);
+  }
+  --bg-3 {
+    background-color: rgba(217,167,74,1);
+  }
+  --color-4 {
+    color: rgba(217,148,65,1);
+  }
+  --bg-4 {
+    background-color: rgba(217,148,65,1);
+  }
+  --color-5 {
+    color: rgba(206,147,58,1);
+  }
+  --bg-5 {
+    background-color: rgba(206,147,58,1);
+  }
+}
